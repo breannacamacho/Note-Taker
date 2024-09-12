@@ -17,6 +17,8 @@ The Note-Taker application allows users to write, save, and retrieve notes using
 
 ![OtherMockup](/public/assets/images/notespage.png)
 
+Please visit the site [here!](https://note-taker-d3iy.onrender.com/)
+
 ## Badges
 
 [![Static Badge](https://img.shields.io/badge/GitHub-breannacamacho-darkgreen)](https://github.com/breannacamacho) 
