@@ -1,0 +1,107 @@
+/* Base Styles */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Button Styles */
+.save-note, 
+.new-note, 
+.clear-btn {
+  display: none;
+}
+
+/* Icon Styles */
+.icons {
+  margin: 0 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333; /* Improved contrast */
+}
+
+.icons:hover {
+  color: #555; /* Subtle hover effect */
+}
+
+/* Note Input Styles */
+.note-textarea,
+.note-title {
+  color: #000;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+
+.note-title {
+  height: 50px;
+  margin-top: 13px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.note-textarea {
+  resize: none;
+  height: calc(100% - 63px);
+  padding-top: 15px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.note-title:read-only,
+.note-textarea:read-only {
+  color: #757575;
+}
+
+/* List Container and Card Styles */
+.list-container {
+  padding-left: 0;
+}
+
+.list-container .card {
+  height: calc(100vh - 70px);
+  border-bottom: none;
+  border-radius: 0 0 5px 5px;
+  background-color: #ffffff; /* Clean card background */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for better aesthetics */
+}
+
+.list-container .list-group,
+.list-container .list-group-item:first-child,
+.list-container .card {
+  border-top: none;
+  border-radius: 0;
+}
+
+/* List Item Styles */
+.list-item-title {
+  display: inline-block;
+  width: 75%;
+  font-weight: bold;
+}
+
+.list-container i {
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #333; /* Icon color for list items */
+}
+
+.list-container i:hover {
+  color: #ff6347; /* Subtle hover color for icons */
+}
+
+.list-container .list-group-item {
+  border-left: none;
+  border-right: none;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.list-container .list-group-item:hover {
+  background-color: #f0f0f0; /* Hover effect for list items */
+}
